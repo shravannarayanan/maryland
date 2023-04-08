@@ -1098,6 +1098,13 @@ label i img {
     margin-right: auto;
     margin-bottom: 38px;
 }  
+    section.sportlight {
+    background: url(../images/strip.png) no-repeat;
+    background-size: 187px;
+    background-position: 313px 122px;
+    height: 404vh;
+    background-color: #f6f5f5;
+}
 }
 
 
@@ -1108,6 +1115,15 @@ label i img {
     width: 38px;
     margin-bottom: 3px;
     margin-right: -2px;
+}
+@media screen and (max-width: 360px) {
+    section.sportlight {
+    background: url(../images/strip.png) no-repeat;
+    background-size: 187px;
+    background-position: 313px 122px;
+    height: 404vh;
+    background-color: #f6f5f5;
+}
 }
 section.sportlight ul {
     display: flex;
@@ -1480,4 +1496,6 @@ li a div {
 
     }
 }
+
+
 
